@@ -12,6 +12,40 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    
+    private var viewVal: String = ""
+    var ViewVal: String {
+        get {
+            return viewVal // Labelに表示する値を返す。
+        }
+        set {
+            viewVal = newValue // TextFieldの値をここに設定する。
+        }
+    }
+    
+    private var viewLl: String = ""
+    var ViewLl: String {
+        get {
+            return viewLl // Labelに表示する値を返す。
+        }
+        set {
+            viewLl = newValue // TextFieldの値をここに設定する。
+        }
+    }
+    
+    private var viewAdd: String = ""
+    var ViewAdd: String {
+        get {
+            return viewAdd // Labelに表示する値を返す。
+        }
+        set {
+            viewAdd = newValue // TextFieldの値をここに設定する。
+        }
+    }
+    
+
+
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {

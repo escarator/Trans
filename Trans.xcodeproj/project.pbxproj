@@ -13,6 +13,14 @@
 		71476D111A5AC21C0016A04D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71476D101A5AC21C0016A04D /* Images.xcassets */; };
 		71476D141A5AC21C0016A04D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71476D121A5AC21C0016A04D /* LaunchScreen.xib */; };
 		71476D201A5AC21C0016A04D /* TransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71476D1F1A5AC21C0016A04D /* TransTests.swift */; };
+		71476D2C1A5AC7C00016A04D /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71476D2B1A5AC7C00016A04D /* SubViewController.swift */; };
+		71476D2E1A5AF6790016A04D /* GeoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71476D2D1A5AF6790016A04D /* GeoController.swift */; };
+		71B4D59A1A6E1EFD00A66121 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B4D5941A6E1EFD00A66121 /* car.png */; };
+		71B4D59B1A6E1EFD00A66121 /* dessert.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B4D5951A6E1EFD00A66121 /* dessert.png */; };
+		71B4D59C1A6E1EFD00A66121 /* gohan.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B4D5961A6E1EFD00A66121 /* gohan.png */; };
+		71B4D59D1A6E1EFD00A66121 /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B4D5971A6E1EFD00A66121 /* human.png */; };
+		71B4D59E1A6E1EFD00A66121 /* osake.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B4D5981A6E1EFD00A66121 /* osake.png */; };
+		71B4D59F1A6E1EFD00A66121 /* tuna.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B4D5991A6E1EFD00A66121 /* tuna.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,15 @@
 		71476D191A5AC21C0016A04D /* TransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71476D1E1A5AC21C0016A04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71476D1F1A5AC21C0016A04D /* TransTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransTests.swift; sourceTree = "<group>"; };
+		71476D2B1A5AC7C00016A04D /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubViewController.swift; path = ../SubViewController.swift; sourceTree = "<group>"; };
+		71476D2D1A5AF6790016A04D /* GeoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoController.swift; sourceTree = "<group>"; };
+		71476D5D1A5AFBD20016A04D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71B4D5941A6E1EFD00A66121 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		71B4D5951A6E1EFD00A66121 /* dessert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dessert.png; sourceTree = "<group>"; };
+		71B4D5961A6E1EFD00A66121 /* gohan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gohan.png; sourceTree = "<group>"; };
+		71B4D5971A6E1EFD00A66121 /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = human.png; sourceTree = "<group>"; };
+		71B4D5981A6E1EFD00A66121 /* osake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = osake.png; sourceTree = "<group>"; };
+		71B4D5991A6E1EFD00A66121 /* tuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuna.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +76,7 @@
 		71476CFB1A5AC21C0016A04D = {
 			isa = PBXGroup;
 			children = (
+				71476D5D1A5AFBD20016A04D /* CoreLocation.framework */,
 				71476D061A5AC21C0016A04D /* Trans */,
 				71476D1C1A5AC21C0016A04D /* TransTests */,
 				71476D051A5AC21C0016A04D /* Products */,
@@ -77,8 +95,11 @@
 		71476D061A5AC21C0016A04D /* Trans */ = {
 			isa = PBXGroup;
 			children = (
+				71B4D5931A6E1EFD00A66121 /* Images */,
 				71476D091A5AC21C0016A04D /* AppDelegate.swift */,
+				71476D2D1A5AF6790016A04D /* GeoController.swift */,
 				71476D0B1A5AC21C0016A04D /* ViewController.swift */,
+				71476D2B1A5AC7C00016A04D /* SubViewController.swift */,
 				71476D0D1A5AC21C0016A04D /* Main.storyboard */,
 				71476D101A5AC21C0016A04D /* Images.xcassets */,
 				71476D121A5AC21C0016A04D /* LaunchScreen.xib */,
@@ -110,6 +131,19 @@
 				71476D1E1A5AC21C0016A04D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71B4D5931A6E1EFD00A66121 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				71B4D5941A6E1EFD00A66121 /* car.png */,
+				71B4D5951A6E1EFD00A66121 /* dessert.png */,
+				71B4D5961A6E1EFD00A66121 /* gohan.png */,
+				71B4D5971A6E1EFD00A66121 /* human.png */,
+				71B4D5981A6E1EFD00A66121 /* osake.png */,
+				71B4D5991A6E1EFD00A66121 /* tuna.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +195,7 @@
 				TargetAttributes = {
 					71476D031A5AC21C0016A04D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = S3UNBN5SS6;
 					};
 					71476D181A5AC21C0016A04D = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +227,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B4D59A1A6E1EFD00A66121 /* car.png in Resources */,
 				71476D0F1A5AC21C0016A04D /* Main.storyboard in Resources */,
+				71B4D59F1A6E1EFD00A66121 /* tuna.png in Resources */,
 				71476D141A5AC21C0016A04D /* LaunchScreen.xib in Resources */,
+				71B4D59D1A6E1EFD00A66121 /* human.png in Resources */,
+				71B4D59C1A6E1EFD00A66121 /* gohan.png in Resources */,
 				71476D111A5AC21C0016A04D /* Images.xcassets in Resources */,
+				71B4D59B1A6E1EFD00A66121 /* dessert.png in Resources */,
+				71B4D59E1A6E1EFD00A66121 /* osake.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71476D2C1A5AC7C00016A04D /* SubViewController.swift in Sources */,
+				71476D2E1A5AF6790016A04D /* GeoController.swift in Sources */,
 				71476D0C1A5AC21C0016A04D /* ViewController.swift in Sources */,
 				71476D0A1A5AC21C0016A04D /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +448,7 @@
 				71476D251A5AC21C0016A04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71476D261A5AC21C0016A04D /* Build configuration list for PBXNativeTarget "TransTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +457,7 @@
 				71476D281A5AC21C0016A04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
